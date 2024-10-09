@@ -3,7 +3,7 @@ import snowflake.connector
 import pandas as pd
 
 # Streamlit application title
-st.title("Snowflake Customers Table Viewer")
+st.title("Snowflake Customers Table Viewer 0.0.0.1")
 
 # Snowflake connection parameters
 def create_snowflake_connection():
