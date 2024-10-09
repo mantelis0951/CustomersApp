@@ -8,12 +8,12 @@ st.title("Snowflake Customers Table Viewer v0.0.1")
 # Snowflake connection parameters
 def create_snowflake_connection():
     conn = snowflake.connector.connect(
-        user='YOUR_SNOWFLAKE_USER',  # Replace with your Snowflake user
-        password='YOUR_SNOWFLAKE_PASSWORD',  # Replace with your Snowflake password
-        account='YOUR_SNOWFLAKE_ACCOUNT',  # Replace with your Snowflake account identifier
-        warehouse='YOUR_SNOWFLAKE_WAREHOUSE',  # Replace with your Snowflake warehouse
-        database='YOUR_SNOWFLAKE_DATABASE',  # Replace with your Snowflake database
-        schema='YOUR_SNOWFLAKE_SCHEMA'  # Replace with your Snowflake schema
+                user = "YOUR_SNOWFLAKE_USER"
+                password = "YOUR_SNOWFLAKE_PASSWORD"
+                account = "YOUR_SNOWFLAKE_ACCOUNT"
+                warehouse = "YOUR_SNOWFLAKE_WAREHOUSE"
+                database = "YOUR_SNOWFLAKE_DATABASE"
+                schema = "YOUR_SNOWFLAKE_SCHEMA"
     )
     return conn
 
